@@ -40,5 +40,11 @@ namespace SpecFlowCalculator.Specs.Steps
         {
             Assert.Equal(result,_result);
         }
+
+        [When(@"the two numbers are subtracted")]
+        public void WhenTheTwoNumbersAreSubtracted()
+        {
+            _result = _calculator.Sub();
+        }
     }
 }

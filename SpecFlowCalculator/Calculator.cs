@@ -13,5 +13,10 @@ namespace SpecFlowCalculator
             return FirstNumber + SecondNumber;
         }
 
+        public int Sub()
+        {
+            return FirstNumber - SecondNumber;
+        }
+
     }
 }
